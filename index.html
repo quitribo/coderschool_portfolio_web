@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AlexNgo Portfolio Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400;900&family=Source+Sans+Pro:300;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- <div class="logo">
+        <img src="img/img-game/minecraft.jpeg" alt="" />
+      </div> -->
+
+      <button class="nav_toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item">
+            <a href="#services_id" class="nav_link">My Services</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About me</a>
+          </li>
+          <li class="nav_item"><a href="#work" class="nav_link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- INTRO SECTION -->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title_intro">
+        Hi, I am <strong>Alex Ngo</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle_intro">front-end dev</p>
+      <img
+        src="img/alex_ngo_fuzzy.JPG"
+        alt="A picture of Alex Ngo smiling"
+        class="intro_img"
+      />
+    </section>
+
+    <!-- MY SERVICES - WHAT I DO-->
+    <section class="my_services" id="services_id">
+      <h2 class="section_title section_title_services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Data-science</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta
+            exercitationem esse dolorem iste ex, quis dolorum libero eum? Fuga
+            velit earum, nesciunt deleniti eos labore aperiam beatae a libero?
+          </p>
+        </div>
+        <!-- service -->
+        <div class="service">
+          <h3>Front-end</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            similique nihil, assumenda non, unde quisquam et ab accusamus
+            temporibus perferendis ut nesciunt recusandae officia, quam maiores.
+            Modi obcaecati consectetur harum.
+          </p>
+        </div>
+        <!-- service -->
+      </div>
+      <!-- service -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about_me" id="about">
+      <h2 class="section_title section_title_about">Who I am</h2>
+      <p class="section_subtitle section_subtitle_about">
+        Data science enthusiast & developer based out of Sydney
+      </p>
+
+      <div class="about_me_body">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+          veritatis quam sed necessitatibus neque dicta aliquam magnam qui
+          expedita, error officia fugiat distinctio in. Harum aliquam excepturi
+          perspiciatis ea earum.
+        </p>
+      </div>
+      <img
+        src="img/alex_ngo_fuzzy.JPG"
+        alt="Alex Ngo learning against a bus"
+        class="about_me_img"
+      />
+    </section>
+
+    <!-- MY WORK -->
+    <section class="my_work" id="work">
+      <h2 class="section_title section_title_work">My work</h2>
+      <p class="section_subtitle section_subtitle_work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <a
+          href="https://github.com/quitribo/HAR_coderschool_alex_ngo"
+          target="_blank"
+          id="portfolio_item"
+        >
+          <img src="img/img-game/callofduty.jpg" alt="" class="portfolio_img" />
+        </a>
+        <!-- Portfolio item 2 -->
+        <a href="#" id="portfolio_item" target="_blank">
+          <img src="img/img-game/LOL.jpg" alt="" class="portfolio_img" />
+        </a>
+        <!-- Portfolio item 3
+        <a href="#" id="portfolio_item">
+          <img src="img/img-game/dota2_game.jpg" alt="" class="portfolio_img" />
+        </a> -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:alex.ngolx@gmail.com" class="footer_link"
+        >alex.ngolx@gmail.com</a
+      >
+      <ul class="social_list">
+        <li class="social_list_item">
+          <a
+            href="https://www.linkedin.com/in/alex-ngo-8418665a/"
+            target="_blank"
+            class="social_list_link"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+        </li>
+        <li class="social_list_item">
+          <a
+            href="https://github.com/quitribo/IBM-Data-Science-Capstone"
+            target="_blank"
+            class="social_list_link"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
